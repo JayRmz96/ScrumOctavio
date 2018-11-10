@@ -26,6 +26,11 @@ import { LoginPacienteContentComponent } from './componentes/loginPacienteConten
 
 import { SigninComponent } from './componentes/signin';
 
+import { SigninPacientesComponent } from './componentes/signinPacientes';
+
+import { SigninDoctoresComponent } from './componentes/signinDoctores';
+
+
 import { SigninContentComponent } from './componentes/signinContent';
 
 import { CategoriesComponent } from './componentes/categories';
@@ -46,6 +51,8 @@ import { routing, appRoutingProviders } from './app.rutas';
     LoginPacienteContentComponent,
     SigninContentComponent,
     SigninComponent,
+    SigninPacientesComponent,
+    SigninDoctoresComponent,
     CategoriesComponent,
     TypesComponent
   ],

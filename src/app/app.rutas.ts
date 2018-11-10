@@ -12,6 +12,9 @@ import { LoginPacienteComponent } from './componentes/logInPaciente';
 
 import { SigninComponent } from './componentes/signin';
 
+import {SigninPacientesComponent} from './componentes/signinPacientes';
+import {SigninDoctoresComponent} from './componentes/signinDoctores';
+
 const appRoutes: Routes = [
 
   {path: '', component: IndexComponent},
@@ -19,6 +22,8 @@ const appRoutes: Routes = [
   {path: 'logInDoctor', component: LoginComponent},
   {path: 'logInPaciente', component: LoginPacienteComponent},
   {path: 'signIn', component: SigninComponent},
+  {path: 'signinDoctores', component: SigninDoctoresComponent},
+  {path: 'signinPaciente', component: SigninPacientesComponent},
   {path: 'app-categories', component: CategoriesComponent},
   {path: '**', component: IndexComponent}
 ];
